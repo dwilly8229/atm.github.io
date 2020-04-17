@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	double a,b,s,n;
+	double sum=0; 
+	cin>>a;
+	
+	cin>>b;
+	s=a;
+	while(s>0)
+	{
+	    s-=5;
+	}
+	if(s==0)
+	{
+	    a+=0.5;
+		if(a<=b)
+		{
+			sum=b-a;
+			cout<<sum;
+		}
+		else
+		cout<<b;
+	}
+	else
+	cout<<b;
+	return 0;
+}
